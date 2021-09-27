@@ -148,6 +148,10 @@ a {
 
 
 
+.contact {
+  color :#c32428 ;
+  font-size: 15px !important;
+}
 
 h1,
 h2,
@@ -1331,9 +1335,10 @@ background-position: center center; }
     -o-transform: scale(1.2);
     transform: scale(1.2); }
   .single-blog:hover .blog-content {
-    background-color: #754ef9; }
+    border-radius: 0px 12px 0 0;
+    background-color: #ffb900; }
     .single-blog:hover .blog-content .blog-title a {
-      color: #fff; }
+      color: #000; }
     .single-blog:hover .blog-content span {
       color: #fff; }
 
