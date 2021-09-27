@@ -61,6 +61,64 @@ img {
    border-radius: 14px;
 
   }
+  @media (max-width: 931px) {
+    .logo1 {
+      width : 60px ; } 
+      .header-content-right .title{
+        text-align: center;
+        margin: 30px auto ; 
+        padding-bottom: 0px !important;
+          line-height: 78px !important;
+          
+
+    
+    }
+    .align-items-center{
+      text-align: center !important;
+
+    }
+  }
+
+      @media (max-width: 557px) {
+        .logo1 {
+          width : 58px ;
+         }
+        
+        .cnt {
+          padding-right: 43px !important;
+          padding-left: 46px !important
+
+        }
+        .align-items-center{
+          text-align: center !important;
+    
+        }
+      
+        .header-content-right .title{
+          padding-bottom: 0px !important;
+          font-size: 58px !important;
+          margin: 30px auto ; 
+          text-align: center;
+          line-height: 58px !important;
+        }
+      }
+
+
+      @media (max-width: 767px) {
+        .header-content-right .title {
+          padding-bottom: 0px !important;
+          text-align: center;
+          margin: 30px auto ; 
+          font-size: 58px !important;
+          line-height: 58px !important;
+         }
+         .align-items-center{
+          text-align: center !important;
+    
+        }
+        }
+
+
   .culture{
     font-family: 'Concert One', cursive;
    
@@ -1424,7 +1482,7 @@ p.form-message.success, p.form-message.error {
 
 .back-to-top {
   font-size: 20px;
-  color: #fff;
+  color: #c32428;
   position: fixed;
   right: 20px;
   bottom: 20px;
@@ -1432,8 +1490,8 @@ p.form-message.success, p.form-message.error {
   height: 50px;
   line-height: 46px;
   border-radius: 50%;
-  border: 2px solid #586376;
-  background-color: #152136;
+  border: 2px solid #fff;
+  background-color: #ffb900;
   text-align: center;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
