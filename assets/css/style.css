@@ -206,7 +206,7 @@ https://flickity.metafizzy.co
 
 
 .gallery {
-  background: #EEE;
+  background: #eefeee;
 }
 
 .gallery-cell {
@@ -278,44 +278,7 @@ img {
   
 }
 
-.title_pre{
-  font-family : monospace;
-  font-size: 12px;
-  color: white ;
-  letter-spacing:  5px;
-  postion : absolute ;
-  top :50% ;
-  left :50% ;
-  transform : translate(-50%, -50%) ;
-  
 
-
-}
-
-
-.bar{
-  width: 80px;
-  height:2px ;
-  background-color: # ; 
-  postion : absolute ;
-  top : 53% ;
-  left :50% ;
-  transform : translate(-50%, -50%) ;
-  z-index : 999 ;
-
-}
-#fill{
-  width: 0%;
-  height: 100%;
-  background-color: white;
-  position :relative;
-  top:0px ;
-  left : 0px ;
-
-
-
-
-}
 
 .logo1{
    width : 90px;
@@ -323,6 +286,31 @@ img {
    border-radius: 14px;
 
   }
+
+ 
+
+  @media (max-width: 1589px) {
+    .flickity-enabled.is-draggable .flickity-viewport{
+      height: 400px !important;
+    }
+  }
+
+    @media (max-width:  908px) {
+      .flickity-enabled.is-draggable .flickity-viewport{
+        height: 300px !important;
+      }
+      @media (max-width:  690px) {
+        .flickity-enabled.is-draggable .flickity-viewport{
+          height: 233px !important;
+        }
+
+        @media (max-width:  532px) {
+          .flickity-enabled.is-draggable .flickity-viewport{
+            height: 158px !important;
+          }
+
+
+ 
   @media (max-width: 931px) {
     .logo1 {
       width : 60px ; } 
